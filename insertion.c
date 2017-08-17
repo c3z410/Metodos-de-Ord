@@ -23,7 +23,7 @@ void printarray(int ar[], int n)
 
 int main()
 {
-    int arr[] = {12, 11, 13, 5, 6, 8};
+    int arr[] = {15, 14, 17, 11, 12, 13};
     printarray(arr, 6);
     insertionsort(arr, 6);
     printarray(arr, 6);
