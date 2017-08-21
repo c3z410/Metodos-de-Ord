@@ -1,3 +1,5 @@
+#include "ordcomp.h"
+
 void insertionsort(int ar[], int n)
 {
 
@@ -11,22 +13,4 @@ for (i = 1; i < n; ++i){
 	}
 	ar[j + 1] = key;
 	}
-}
-
-
-void printarray(int ar[], int n)
-{
-   int i;
-   for (i=0; i < n; i++){printf("%d ", ar[i]);}
-   printf("\n");
-}
-
-int main()
-{
-    int arr[] = {15, 14, 17, 11, 12, 13};
-    printarray(arr, 6);
-    insertionsort(arr, 6);
-    printarray(arr, 6);
-
-    return 0;
 }
