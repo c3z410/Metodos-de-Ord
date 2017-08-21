@@ -1,3 +1,5 @@
+#include "ordcomp.h"
+
 void selectionsort(int ar[], int n)
 {
 	int i, j, indice, maior;
@@ -17,21 +19,4 @@ void selectionsort(int ar[], int n)
 		ar[indice] = ar[i];
 		ar[i] = maior;
 	}
-}
-
-void printarray(int ar[], int n)
-{
-   int i;
-   for (i=0; i < n; i++){printf("%d ", ar[i]);}
-   printf("\n");
-}
-
-int main()
-{
-    int arr[] = {15, 14, 17, 11, 12, 13};
-    printarray(arr, 6);
-    selectionsort(arr, 6);
-    printarray(arr, 6);
-
-    return 0;
 }
