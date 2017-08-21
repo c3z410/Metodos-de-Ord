@@ -1,1 +1,1 @@
-# Metodos-de-Ord
+# metodos de ordenação por comparação
