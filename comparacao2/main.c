@@ -13,26 +13,26 @@ void printarray(int ar[], int n)
 
 int main()
 {
-    int arr[] = {15, 14, 17, 11, 12, 13};
-    int arr2[] = {15, 14, 17, 11, 12, 13};
-    int arr3[] = {15, 14, 17, 11, 12, 13};
+    int arr[] = {15, 14, 17, 11, 12, 13, 16, 10};
+    int arr2[] = {15, 14, 17, 11, 12, 13, 16, 10};
+    int arr3[] = {15, 14, 17, 11, 12, 13, 16, 10};
 
     printf("Merge Sort\n");
 
-    printarray(arr, 6);
-    mergesort(arr, 6);
-    printarray(arr, 6);
+    printarray(arr, 8);
+    mergesort(arr, 0 , 7);
+    printarray(arr, 8);
 
     printf("Selection Sort\n");
 
-    printarray(arr2, 6);
-    quicksort(arr2, 6);
-    printarray(arr2, 6);
+    printarray(arr2, 8);
+    quicksort(arr2, 0 , 7);
+    printarray(arr2, 8);
     
-    printf("Heaps Sort\n");
+    printf("Heap Sort\n");
     
-    printarray(arr3, 6);
-    heapsort(arr3, 6);
-    printarray(arr3, 6);
+    printarray(arr3, 8);
+    heapsort(arr3, 8);
+    printarray(arr3, 8);
 
     return 0;
