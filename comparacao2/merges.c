@@ -15,7 +15,6 @@ void merge(int ar1[], int ar2[], int L, int m, int r){
       ar2[posAux++] = ar1[L++];
    while(m <= r)
       ar2[posAux++] = ar1[m++];
-
    for(i = 0; i < nElement; i++, r--)
       ar1[r] = ar2[r];
 }
