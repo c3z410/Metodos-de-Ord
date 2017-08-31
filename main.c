@@ -1,5 +1,4 @@
-#include "selection.h"
-#include "insertion.h"
+#include "ordcomp.h"
 #include <stdio.h>
 
 void printarray(int ar[], int n)
