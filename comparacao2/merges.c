@@ -24,9 +24,9 @@ void mergesort(int ar[], int L, int r){
      aux = malloc(nElem*sizeof(int));
      if(L < r) {
           m = (L + r)/2;
-          mergesort(array, L, m);
+          mergesort(ar, L, m);
           mergesort(ar, m + 1, r);
-          merge(array, aux, L, m + 1, r);
+          merge(ar, aux, L, m + 1, r);
      }
      free(aux);
 }
